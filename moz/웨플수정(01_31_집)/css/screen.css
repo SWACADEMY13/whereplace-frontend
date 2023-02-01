@@ -1,0 +1,135 @@
+/* @@100vh시 스크롤 생기는 문제 해결해야 함 */
+
+.body {
+    position: relative;
+}
+
+#header {
+    /* padding을 넣었을 때 정해놓은 크기 이상으로 커지지 않도록 box-sizing */
+    box-sizing: border-box;
+
+    font-family: 'El Messiri', sans-serif;
+    font-size: 80px;
+    color: #82954B;
+
+    height: 130px;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+.background {
+    display: flex;
+    /* background-image: url(https://images.pexels.com/photos/6762080/pexels-photo-6762080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    /* background-size: cover; */
+    /* background-image: url(https://images.unsplash.com/photo-1606595872169-4f672c9babc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80); */
+    height: 100vh;
+    justify-content: center;
+}
+
+.main {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex; /*주축 정렬(가로 정렬)*/
+    justify-content: center; /*주축으로 중앙에 정렬*/
+    align-items: center; /*교차축으로 중앙에 정렬*/
+
+    margin-top: -100px;
+}
+
+.imgcards {
+    /* 전체를 감싸는 부모태그와 크기를 똑같이하고 absolute로 다른 block과 겹침허용
+    (다른 block이 차지하는 공간 무시하고 전부 차지) */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    /* 그러고 나서 양 끝 정렬 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgcard1, .imgcard2 {
+    background-size: cover;
+    
+
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 200px;
+}
+
+.imgcard1 {
+    background-image: url(../imgsrc/KakaoTalk_20230201_000607317_01.jpg)
+}
+
+.imgcard2 {
+    background-image: url(../imgsrc/KakaoTalk_20230201_000607317_02.jpg)
+}
+
+#loginBox {
+    background-color: white;
+
+    margin-top: -100px;
+    margin: auto;
+    border-radius: 20px;
+
+    width: 350px;
+    height: 600px;
+
+    border-style: solid;
+    border-color: silver;
+
+    /* 자식요소들 전부 flex로 정렬 후
+    column으로 세로 정렬 후
+    column의 center에 정렬 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /*이번에는 주축이 세로축이니까 가로로 중앙 정렬*/
+}
+
+.inputEmail, .inputPassword, .loginButton, .socialLogin, .signUp {
+    margin-bottom: 30px;
+}
+
+.inputEmail, .inputPassword {
+    width: 300px;
+    height: 60px;
+    padding: 0 10px;
+
+    border: 1px;
+    border-color: silver;
+    border-style: solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.loginButton {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+}
+
+.socialLogin {
+    margin: 10px auto;
+    width: 300px;
+    height: 120px;
+    background-color: #CDE990;
+    opacity: 50%;
+}
+
+.signUp {
+    margin-top: 10px;
+    font-family: 'Noto Serif KR', serif;
+    color: #AACB73;
+    font-size: 15px;
+}
+
+.footer {
+
+}
