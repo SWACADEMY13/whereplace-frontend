@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #979797;
+    position: fixed;
+
+}
+
+.header__logo {
+    margin: auto;
+    width: 1200px;
+    font: bold 25px 'arial';
+    padding-top: 20px;
+}
+
+.header_menu {
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.header_menu ul li {
+    display: inline-block;
+}
+
+.header_menu ul li a{
+    display: block;
+    font: bold 14px;
+    color: #999;
+    margin: 0px 50px;
+    letter-spacing: 0px;
+}
+
+
