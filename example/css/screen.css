@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #979797;
+    position: fixed;
+  
+  }
+  
+  .header__logo {
+    margin: auto;
+    width: 1200px;
+    font: bold 25px 'arial';
+    padding-top: 20px;
+  }
+  
+  .header_menu {
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  }
+  
+  .header_menu ul li {
+    display: inline-block;
+  }
+  
+  .header_menu ul li a{
+    display: block;
+    font: bold 14px;
+    color: #999;
+    margin: 0px 50px;
+    letter-spacing: 0px;
+  }
+  
+  /* 웨플 기본 배경 넣을 곳 */
+  .main_box {
+    padding-top: 150px;
+    height: 100vh;
+  }
+  
+  .contents_box {
+    box-sizing: border-box;
+    border: solid #999 1px;
+
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
+    height: 1800px;
+    /* background-color: red; */
+  }
+
+  .profile_background {
+    background-image: url('../imgsrc/01DF8085-D705-4141-A3CA-B42EF4E9BA0D.jpg');
+    background-size: cover;
+    /* 프로필사진 중앙 아래정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+
+    background-color: black;
+    width: 100%;
+    height: 800px;
+  }
+
+  .profile_img {
+    background-image: url('../imgsrc/KakaoTalk_20220929_180751027.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-bottom: solid #999 1px;
+  }
+
+  .user_name {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .info_box {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 120px;
+    background-color: #999;
+  }
+
+  .edit_profile {
+    margin-left: 85%;
+    margin-top: 5px;
+    padding: 5px 5px;
+
+    border: none;
+    background-color: #77af9c;
+    color: #d7fff1;
+    border-radius: 5px;
+  }
+
+  .info_text {
+    display: block;
+    width: 95%;
+  }
+
+  .pics_box {
+    /* height: 100%; */
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .pic {
+    margin: 10px;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    background-color: yellow;
+  }
+
