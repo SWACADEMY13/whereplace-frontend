@@ -98,24 +98,24 @@
   display: flex;
   width: 600px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 #location1 {
   margin-right: 20px;
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
 }
 
 #location2 {
   margin-right: 20px;
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
 }
 
 #location3 {
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
 }
 
 .map_icon {
@@ -123,12 +123,12 @@
 }
 
 .map {
-    margin: 100px auto 0px;
+    margin: 70px auto 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://post-phinf.pstatic.net/MjAyMDExMjdfODkg/MDAxNjA2NDQ3MTI2MTAx.zL10Yre2OfWy88I0d3vDB5L6f1VKBmtZkCuZcGx5-5Ig.H0nI8VcMuExJVxvhZjqfZUS1jj4qj4j5TUH8Ktqdv_og.JPEG/3.jpg?type=w1200");
     background-size: cover;
     background-position: center;
