@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Photo Upload</h1>
+    </div>
+    <div class="form">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file">Choose a file to upload:</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    <div class="preview">
+    <!-- 업로드한 이미지를 미리보기할 영역 -->
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html>

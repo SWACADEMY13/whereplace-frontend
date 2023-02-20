@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #979797;
+    position: fixed;
+    top: 0px;
+
+}
+.header__logo {
+    margin: auto;
+    width: 1200px;
+    font-size: 20px;
+    font-family: 'Long Cang';
+    padding-top: 20px;
+    font-weight: 30;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+.header_menu {
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.header_menu ul li {
+    display: inline-block;
+}
+.header_menu ul li a{
+    display: block;
+    font: bold 10px;
+    color: #999;
+    margin: 0px 50px;
+    letter-spacing: 0px;
+}
+
+.main_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pic_box {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.pic {
+    width: 200px;
+    height: 200px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_box {
+    padding-top: 25px;
+    border-right: solid #999 1px;
+    margin-top: 150px;
+    position: fixed;
+    height: 800px;
+    width: 400px;
+}
+
+.user_pic {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border: solid #999 1px;
+    margin: auto;
+    margin-top: 80%;
+    border-radius: 100%;
+}
+
+.profile_id {
+
+}
+
+.profile_pic {
+    
+    margin: auto;
+    border: solid #999 1px;
+    width: 350px;
+    height: 450px;
+}
+
+.profile_info {
+    border: solid #999 1px;
+    width: 350px;
+    height: 150px;
+
+    margin: auto;
+    margin-top: 25px;
+}
+.upload-btn-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: #8FA65E;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8FA65E;
+    color: #FFFFFF;
+}
+
+.upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
