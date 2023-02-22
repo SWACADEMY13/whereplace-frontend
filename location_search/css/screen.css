@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #979797;
+  position: fixed;
+  z-index: 1
+}
+
+.header_logo {
+  margin: auto;
+  width: 1500px;
+  padding-top: 10px;
+}
+
+.header_logo a {
+  font-family: 'Long Cang', cursive;
+  font-size: 25px;
+  color: #8FA65E;
+}
+
+.header_menu {
+font-family: 'Gowun Dodum', sans-serif;
+
+margin: auto;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.header_menu ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  width: 200px;
+}
+
+.header_menu ul li a{
+  color: #999;
+  font: bold 14px;
+}
+
+/* 여기까지 기본 틀 */
+.main_box {
+  flex-wrap: wrap;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.selects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+select {
+  display: inline;
+  height: 30px;
+  width: 200px;
+  font-size: 13px;
+  border: solid 2px #BAD287;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+select:focus {
+  border: solid 2px #BAD287;
+  outline: none;
+}
+
+.map {
+  height: 60%;
+  width: 60%;
+  background-color: lightblue;
+}
+
+.posting_btn {
+  width: 100px;
+  height: 100px;
+  background-color: #8FA65E;
+  color: white;
+  font-size: 70px;
+  border: none;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 40%;
+  right: 50px;
+  cursor: pointer;
+}
+
+
