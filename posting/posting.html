@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 
+
     <title>WHERE PLACE</title>
 </head>
 
@@ -52,7 +53,10 @@
                                         <option value="읍/면/동">읍/면/동</option>
                                     </select>
                                 </div>
-                                <div class="map_api"></div>
+                                <div class="map_api" id="map">
+                                    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=5sk8p949k9"></script>
+                                    <script type="text/javascript" src="map.js"></script>
+                                </div>
                             </div>
                             <div class="tag_box">
                                 <input class="tag" type="text" placeholder="#">
@@ -67,3 +71,4 @@
         </section>
     </main>
 </body>
+</html>

@@ -169,7 +169,6 @@ select:focus {
 .map_api {
   width: 350px;
   height: 350px;
-  background-color: black;
 }
 
 .tag_box {
