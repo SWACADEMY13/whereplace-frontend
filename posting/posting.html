@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-
-
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a8bb32d8f8af7c974fbc9cf56479e347"></script>
     <title>WHERE PLACE</title>
 </head>
 
@@ -35,9 +34,7 @@
 
             </div>
             <div class="info_box">
-                <!-- /articles/create 경로 -> 확인하기 -->
                 <form action="/articles/create" method="post">
-                    <!-- name값 확인하기-> 블로그에서는 title -->
                     <textarea class="content" placeholder="내용 입력" name="content"></textarea>
                     <div class="location_container">
                         <div class="gray_box">
@@ -53,10 +50,9 @@
                                         <option value="읍/면/동">읍/면/동</option>
                                     </select>
                                 </div>
-                                <div class="map_api" id="map">
-                                    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=5sk8p949k9"></script>
-                                    <script type="text/javascript" src="map.js"></script>
-                                </div>
+                                <div id="map" style="width:350px;height:350px;"></div>
+                                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a8bb32d8f8af7c974fbc9cf56479e347"></script>
+                                <script type="text/javascript" src="map.js"></script>
                             </div>
                             <div class="tag_box">
                                 <input class="tag" type="text" placeholder="#">
@@ -70,5 +66,5 @@
             </div>
         </section>
     </main>
-</body>
+    <script></script>
 </html>
