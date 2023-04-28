@@ -1,0 +1,22 @@
+#Plus_selectItem {
+  width: 90px;
+  height: 90px;
+  background-color: #8fa65e;
+  color: white;
+  font-size: 60px;
+  border: none;
+  border-radius: 100%;
+  text-align: center;
+  position: fixed;
+}
+
+#Plus_target {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}

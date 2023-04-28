@@ -1,0 +1,68 @@
+.PostPage_DeteilTable {
+  display: flex;
+  justify-content: center;
+}
+
+.PostPage_deteil {
+  width: 80%;
+  height: 700px;
+  background-color: #8fa65e;
+  margin-top: 20px;
+  box-shadow: 3px 5px 5px 3px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  max-width: 800px;
+}
+
+#PostPage_showImg {
+  width: 50%;
+  height: max;
+
+  border-radius: 5px;
+  margin: 2%;
+}
+
+#PostPage_inputTag {
+  width: 50%;
+  height: max;
+  margin: 2%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#PostPage_tagList {
+  height: 5%;
+  border-bottom: 1px solid #979797;
+}
+
+#PostPage_deteilText {
+  height: 40%;
+  border-bottom: 1px solid #979797;
+  display: flex;
+}
+
+#PostPage_Comment {
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#PostPage_btn {
+  background-color: #8fa65e;
+  width: 40%;
+  height: 10%;
+  margin-bottom: 5%;
+  line-height: 200%;
+  text-align: center;
+}
+#PostPage_btn:hover {
+  background-color: #54682a;
+  color: white;
+}
+
+.upload-image-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

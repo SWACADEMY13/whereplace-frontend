@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* .join_div{
+    
+} */
+
+.join_header {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  box-sizing: border-box;
+
+  position: fixed;
+}
+
+.join_header_logo {
+  margin: auto;
+  width: 1500px;
+  padding-top: 50px;
+}
+
+.join_header_logo a {
+  font-family: 'Long Cang', cursive;
+  font-size: 35px;
+  color: #8FA65E;
+}
+
+
+.join_main_box {
+
+    
+  flex-wrap: wrap;
+  padding-top: 120px;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+/* 여기까지 기본 틀 */
+
+
+.join_overlay {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+
+  background-color: black;
+  opacity: 0.3;
+}
+
+
+.join_background_img {
+    display: flex;
+    flex-wrap: nowrap;
+  
+    width: 100%;
+    height: 446px;
+  
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.5);
+    background-image: url('./image/fsdfdsdsfsfd.png');
+}
+/* ------------------------------ */
+.join_img {
+  object-fit: fill;
+  display: inline-block;
+
+  /* 부모요소에 nowrap하면 이미지가 정한 크기대로 고정되지 않고 수축된다. */
+  /* 이를 방지하기 위해 flex-shrink: 0;으로 설정한다. */
+  flex-shrink: 0;
+  width: 290px;
+  height: 100%;
+}
+
+.join_login_box {
+  position: absolute;
+  background-color: #8FA65E;
+
+  width: 500px;
+  height: 700px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.5);
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  width: 350px;
+  height: 60px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn_box {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+button {
+  font-size: 15px;
+  /* 마우스 올리면 커서 변하게 */
+  cursor: pointer;
+}
+
+.sign_up_btn {
+  /* 버튼 클릭시 효과 */
+  outline: none;
+  box-shadow: 1px 4px 0 rgb(0,0,0,0.5);
+
+  margin-bottom: 10px;
+  margin-top: 20px;
+  
+  border: none;
+  background-color: #537140;
+  border-radius: 10px;
+  
+  width: 70px;
+  height: 30px;
+  
+  color: white;
+}
+
+.sign_up_btn:active {
+  box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+  position: relative;
+  top:2px;
+}
+

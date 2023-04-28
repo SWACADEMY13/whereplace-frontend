@@ -1,0 +1,24 @@
+#tagS_tagTabel {
+  margin-top: 8%;
+  width: 400px;
+  height: 550px;
+  background-color: #8fa65e;
+  border-radius: 10px;
+  box-shadow: 3px 8px 8px 3px rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tagS_Search {
+  margin-left: 10px;
+  background-color: #56682e;
+  color: white;
+  height: 35px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}

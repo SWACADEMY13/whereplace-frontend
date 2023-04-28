@@ -1,0 +1,25 @@
+.LocaSearch_selects {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  display: inline;
+  height: 30px;
+  width: 200px;
+  font-size: 13px;
+  border: solid 2px #bad287;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+select:focus {
+  border: solid 2px #bad287;
+  outline: none;
+}

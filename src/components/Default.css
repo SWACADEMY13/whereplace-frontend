@@ -1,0 +1,29 @@
+#Def_menu {
+  height: 150px;
+  border-bottom: 1px solid #979797;
+}
+
+.Def_header_logo {
+  font-family: "Long Cang", cursive;
+  font-size: 25px;
+  height: 70%;
+  color: #8fa65e;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Def_header_menu {
+  font-family: "Gowun Dodum", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+span {
+  font-size: large;
+}

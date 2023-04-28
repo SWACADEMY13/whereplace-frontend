@@ -1,0 +1,40 @@
+.MyPro_table {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.MyPro_mainTavle {
+  width: 70%;
+  max-width: 550px;
+  height: auto;
+  background-color: #f4f4f4;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#MyPro_profileBackground {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(26, 104, 104);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#MyPro_profileImg {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+.MyPro_introduce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #979797;
+}

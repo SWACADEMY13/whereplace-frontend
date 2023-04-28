@@ -1,0 +1,17 @@
+.HItem_item {
+  width: 150px;
+  height: 150px;
+  background-color: #8fa65e;
+
+  border-radius: 10px;
+}
+
+#link {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
